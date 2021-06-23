@@ -4,4 +4,10 @@ This repo addresses problem of timeseries-prediction based on framework at [flow
 
 ## Start
 
-run Transformer_flow_forecasting.ipynb
+> git clone https://github.com/xuesyn/TimeSeriesPredictionWithFloodForecast.git
+> cd TimeSeriesPredictionWithFloodForecast
+
+> pip install -r requirements.txt # This is the requirements for [flow-forecast](https://github.com/AIStream-Peelout/flow-forecast)
+> pip install jupyter lab
+
+> jupyter lab
