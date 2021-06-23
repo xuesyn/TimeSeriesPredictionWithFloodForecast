@@ -81,8 +81,8 @@ def simple_decode(model: Type[torch.nn.Module],
     # print("stage_sd_1")
     real_target = real_target.float()
     real_target2 = real_target.clone()
-    print("src_shape:",src.shape)
-    print("unsqueeze_dim:",unsqueeze_dim)
+    # print("src_shape:",src.shape)
+    # print("unsqueeze_dim:",unsqueeze_dim)
     # Use last value
     ys = src[:, -1, :].unsqueeze(unsqueeze_dim)
     ys_std_dev = []
